@@ -4,7 +4,7 @@ ini_set('display_errors', "On");
 
 $name = isset($_POST['name']) ? $_POST['name'] : "";
 $region = isset($_POST['region']) ? $_POST['region'] : "";
-$continent = isset($_POST['continent']) ? $_POST['continent'] : ""; 
+$continent = isset($_POST['Continent']) ? $_POST['Continent'] : ""; 
 $indepyear_min = isset($_POST['indepyear_min']) ? $_POST['indepyear_min'] : 0;
 $indepyear_max = isset($_POST['indepyear_max']) ? $_POST['indepyear_max'] : 0;
 $surfacearea_min = isset($_POST['surfacearea_min']) ? $_POST['surfacearea_min'] : "";
